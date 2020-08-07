@@ -128,6 +128,30 @@ $(document).ready(function () {
             slidesPerView: 2,
         });
     }
+    ///////// **services** /////////
+    if ($(window).width() <= 1199) {
+        $(".parts-flex").addClass("swiper-container");
+        $(".parts-flex .part").wrap("<div class='swiper-slide'></div>");
+        $(".parts-flex .swiper-slide").wrapAll("<div class='swiper-wrapper'></div>");
+        var partsswiper = new Swiper('.parts-flex', {
+            loop: true,
+            pagination: {
+                el: '.parts-flex .swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                480: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    }
     ///////// **footer** /////////
     if ($(window).width() <= 767) {
         $(".footer-head").addClass("mo-accordion");
