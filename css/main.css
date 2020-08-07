@@ -726,6 +726,7 @@ header.header-scroll .drop-btn:hover > .nav-a {
   color: #333;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
 .service:hover {
@@ -1366,6 +1367,8 @@ main .main-bg {
 
 html[dir='ltr'] main .main-bg {
   left: 35%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 html[dir='rtl'] main .main-bg {
