@@ -2743,6 +2743,7 @@ html[dir='rtl'] .part:nth-of-type(3n), html[dir='rtl'] .part:last-of-type {
 }
 
 .contact-method .contact-way:not(span) {
+  direction: ltr;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
