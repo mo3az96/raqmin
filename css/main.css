@@ -115,6 +115,10 @@
   text-decoration: none;
 }
 
+html {
+  overflow-x: hidden !important;
+}
+
 body {
   position: relative;
   font-family: tajawal;
@@ -2368,6 +2372,7 @@ html[dir='rtl'] .close-btn {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    white-space: nowrap;
   }
   nav .drop-btn > .nav-a:after {
     content: url(../images/arrow.png);
