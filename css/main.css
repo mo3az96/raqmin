@@ -2945,6 +2945,78 @@ html[dir='rtl'] .contact-method .social-link:last-of-type {
   opacity: 30%;
 }
 
+.single-date {
+  font-size: 18px;
+  color: #999999;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .single-date {
+    font-size: 16px;
+  }
+}
+
+.single-name {
+  font-size: 28px;
+  color: #673466;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  .single-name {
+    font-size: 22px;
+  }
+}
+
+.single-img {
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.single-ps {
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media (min-width: 1500px) {
+  .single-ps {
+    padding: 0 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .single-ps {
+    margin-top: 40px;
+  }
+}
+
+.single-p {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 991px) {
+  .single-p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: center;
+  }
+}
+
 footer {
   padding-top: 80px;
   overflow: hidden;
