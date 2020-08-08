@@ -2031,38 +2031,22 @@ main .arrow-btn {
   content: url(../images/curve2.png);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   width: 100%;
-}
-
-@media (max-width: 991px) {
-  .services-cont::after {
-    right: auto;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
 }
 
 .services-cont::before {
   content: url(../images/curve1.png);
   position: absolute;
   bottom: 98%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   overflow: hidden;
-}
-
-@media (max-width: 991px) {
-  .services-cont::before {
-    right: auto;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
 }
 
 @media (max-width: 991px) {
@@ -2147,38 +2131,22 @@ main .arrow-btn {
   content: url(../images/curve4.png);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   width: 100%;
-}
-
-@media (max-width: 991px) {
-  .news-cont::after {
-    right: auto;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
 }
 
 .news-cont::before {
   content: url(../images/curve3.png);
   position: absolute;
   bottom: 97%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   overflow: hidden;
-}
-
-@media (max-width: 991px) {
-  .news-cont::before {
-    right: auto;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
 }
 
 @media (max-width: 991px) {
