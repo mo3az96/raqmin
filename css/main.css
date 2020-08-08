@@ -115,6 +115,12 @@
   text-decoration: none;
 }
 
+@media (max-width: 991px) {
+  html {
+    overflow-x: hidden !important;
+  }
+}
+
 body {
   position: relative;
   font-family: tajawal;
@@ -825,6 +831,7 @@ body:not(.home-page) header .drop-btn:hover > .nav-a {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -886,16 +893,6 @@ body:not(.home-page) header .drop-btn:hover > .nav-a {
 
 .service:hover .serv-name {
   color: #139dda;
-}
-
-.Rectangle_7 {
-  border-radius: 50%;
-  position: absolute;
-  left: 975px;
-  top: 1350px;
-  width: 330px;
-  height: 330px;
-  z-index: 55;
 }
 
 .video-link {
@@ -1631,6 +1628,7 @@ main {
         -ms-flex-align: start;
             align-items: flex-start;
     padding-top: 280px;
+    min-height: 1000px;
   }
 }
 
