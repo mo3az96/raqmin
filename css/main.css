@@ -115,10 +115,6 @@
   text-decoration: none;
 }
 
-html {
-  overflow-x: hidden !important;
-}
-
 body {
   position: relative;
   font-family: tajawal;
