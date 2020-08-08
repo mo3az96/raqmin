@@ -996,8 +996,9 @@ body:not(.home-page) header .drop-btn:hover > .nav-a {
   content: url(../images/curve4.png);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   width: 100%;
 }
@@ -1006,8 +1007,9 @@ body:not(.home-page) header .drop-btn:hover > .nav-a {
   content: url(../images/curve3.png);
   position: absolute;
   bottom: 97%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   overflow: hidden;
 }
@@ -1020,8 +1022,8 @@ body:not(.home-page) header .drop-btn:hover > .nav-a {
 
 @media (max-width: 991px) {
   .gallery-cont {
-    margin-top: 220px;
-    margin-bottom: 220px;
+    margin-top: 190px;
+    margin-bottom: 190px;
     padding: 0;
   }
 }
@@ -2013,8 +2015,9 @@ main .arrow-btn {
   content: url(../images/curve2.png);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   width: 100%;
 }
@@ -2023,16 +2026,17 @@ main .arrow-btn {
   content: url(../images/curve1.png);
   position: absolute;
   bottom: 98%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   overflow: hidden;
 }
 
 @media (max-width: 991px) {
   .services-cont {
-    margin-top: 150px;
-    margin-bottom: 180px;
+    margin-top: 190px;
+    margin-bottom: 190px;
   }
 }
 
@@ -2111,8 +2115,9 @@ main .arrow-btn {
   content: url(../images/curve4.png);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   width: 100%;
 }
@@ -2121,16 +2126,17 @@ main .arrow-btn {
   content: url(../images/curve3.png);
   position: absolute;
   bottom: 97%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   overflow: hidden;
 }
 
 @media (max-width: 991px) {
   .news-cont {
-    margin-top: 220px;
-    margin-bottom: 220px;
+    margin-top: 190px;
+    margin-bottom: 190px;
   }
 }
 
